@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tebak Angka</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Tebak Angka!</h1>
+        <p class="between">(Pilih antara 1 sampai 20)</p>
+        <button class="btn again">Main lagi!</button>
+        <div class="number">?</div>
+    </header>
+    <main>
+        <section class="left">
+            <input type="number" class="guess" />
+            <button class="btn check">Tebak!</button>
+        </section>
+        <section class="right">
+            <p class="message">Survei membuktikan...</p>
+            <p class="label-score">💯 Skor: <span class="score">20</span></p>
+            <p class="label-highscore">
+                🥇 Highscore: <span class="highscore">0</span>
+            </p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
