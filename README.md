@@ -1,2 +1,2 @@
-# guessMyNumber
-guessMyNumber.js v1.0
+# GuessMyNumber
+Game GuessMyNumber.js v1.0
